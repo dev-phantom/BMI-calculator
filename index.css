@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #161B49;
+    color: white;
+    font-family: ubuntu;
+    font-family: ubuntu;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: #0A0c21;
+    width: 30%;
+    margin-top: 4rem;
+    padding: 0 1rem;
+    border-radius: 1rem;
+    height: auto;
+}
+.card > h3{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: ubuntu;
+    padding: 10px 0;
+}
+.gender-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.male-container{
+    background-color: #1D1E33;
+    width: 50%;
+    height: 7rem;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.male-container:hover{
+
+    background-color: red;
+}
+.male-container > i{
+    font-size: 3rem;
+}
+.male-container > div{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: ubuntu;
+}
+.female-container{
+    background-color: #1D1E33;
+    width: 50%;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.female-container > i{
+    font-size: 3rem;
+}
+.female-container > div{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: ubuntu;
+}
+.height-container{
+    background-color: #1D1E33;
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    border-radius: .5rem;
+
+}
+.height-container > div{
+    text-transform: uppercase;
+    font-family: ubuntu;
+    padding: 5px 0;
+}
+.display-result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display-result > .result{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#slider{
+    width: 90%;
+}
+.weight-age-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.weight-container{
+    background-color: #1D1E33;
+    width: 50%;
+    height: 7rem;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+}
+.weight-container > div{
+    text-transform: uppercase;
+}
+.weight-container > .result{
+    font-size: 2rem; 
+    font-weight: bolder;
+}
+.weight-container > .button-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .button-flex > div {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4f515e;
+    border-radius: 2rem;
+    font-size: 20px;
+} */
+.age-container{
+    background-color: #1D1E33;
+    width: 50%;
+    height: 7rem;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+}
+.age-container > div{
+    text-transform: uppercase;
+}
+.age-container > .display{
+    font-size: 2rem; 
+    font-weight: bolder;
+}
+.age-container > .button-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-flex > div {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4f515e;
+    border-radius: 2rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button-fle{
+    display: flex;
+   
+    width: 100%;
+    margin: .5rem 0;
+}
+.button-fle > .calculate{
+    background-color: crimson;
+    border-radius: .5rem;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}

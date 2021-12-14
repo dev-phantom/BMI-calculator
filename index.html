@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+<div class="main-container">
+    <div class="card">
+        <h3>bmi calculator</h3>
+        <div class="gender-flex">
+            <div class="male-container">
+                <i class="fas fa-mars"></i>
+                <div>male</div>
+            </div>
+            <div class="female-container" id="test">
+                <i class="fas fa-venus"></i>
+                <div>female</div>
+            </div>
+        </div>
+        <div class="height-container">
+            <div>height</div>
+            <div class="display-result"><div class="result"></div><sub>cm</sub></div>
+            <input type="range" name="" id="slider" min="0" max="100" value="50" oninput="document.querySelector('.result').innerHTML = this.value">
+        </div>
+        <div class="weight-age-flex">
+            <div class="weight-container">
+                <div>weight</div>
+                <div class="result">0</div>
+                <div class="button-flex">
+                    <div class="add">+</div>
+                    <div class="subtract">-</div>
+                </div>
+            </div>
+            <div class="age-container">
+                <div>age</div>
+                <div class="display">0</div>
+                <div class="button-flex">
+                    <div class="age-add">+</div>
+                    <div class="age-subtract">-</div>
+                </div>
+            </div>
+        </div>
+        <div class="button-fle">
+            <div class="calculate">calculate</div>
+        </div>
+    </div>
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
