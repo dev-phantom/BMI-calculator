@@ -197,3 +197,13 @@ body{
     align-items: center;
     font-weight: bolder;
 }
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+    .card{
+        background-color: #0A0c21;
+        width: 90%;
+        margin-top: 2rem;
+        padding: 0 1rem;
+        border-radius: 1rem;
+        height: auto;
+    }
+}
